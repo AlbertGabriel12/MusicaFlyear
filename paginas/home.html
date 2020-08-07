@@ -1,0 +1,59 @@
+<DOCTYPE html>
+<html lang = "pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Home do site Musica Flyear o site que guarda as suas musicas favoritas sem exibir anuncio">
+        <meta name="keywords" content="home, home musica flyear, musica flyear, musica flyear home">
+        <meta name="author" content="Albert Gabriel">
+
+        <title> Home - Musica Flyear </title>
+
+        <!-- Estilo -->
+        <link rel="stylesheet" href="../Css/styleHome.css">
+
+        <!-- Icone -->
+        <link rel="icon" href="../Icon/Home.png">
+    </head>
+
+    <body>
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../Img/Logo.png" width="250">
+            </a>
+        </div>
+
+        <!-- Div onde fica as partes da direita-->
+        <div class="faixaVertical">
+            
+            <div class="areaBotaoMinhasMusicas">
+                <img id="simboloMusica" src="../Img/SimboloMusica.png" alt="erro">
+                <input id="botaoMinhasMusicas" type="button" value="Minhas Musicas">
+                
+            </div>
+            
+            <div class="areaBotaoAddMusicas">
+                <img id="simboloAdd" src="../Img/SimboloAdd.png" alt="erro">
+                
+                <input type="file" id="inputFile" required>
+                <label id="botaoAddMusicas" for="inputFile"> Add Musica</label>
+
+                <input type="text" maxlength="35" id="inputNomeMusica" placeholder="Coloque o Nome da Musica" required>
+                
+                <input type="button" id="adicionarMusica" value="Add">
+                <input type="button" id="removerUltimaMusica" value="Remover Ultima Musica">
+            </div>
+            
+        </div>
+
+        <!-- Div onde fica as musicas-->
+        <div class="areaDasMusicas" style="position: absolute;">
+
+            
+        </div>
+        
+
+        <script src="../JavaScript/home.js"></script>
+    </body>
+
+</html>
+

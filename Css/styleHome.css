@@ -1,0 +1,166 @@
+body{
+    background-color:#6f00a9;
+    overflow-x: hidden;
+}
+
+.logo{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 300px;
+}
+
+.faixaVertical{
+    position: fixed;
+    left: 0;
+    top: 74.38px;
+    background-color: #52007e;
+    width: 300px;
+    
+}
+
+.areaBotaoMinhasMusicas{
+    background-color: #da0043;
+}
+
+
+
+#botaoMinhasMusicas{
+    position: absolute;
+    background-color: #da0043;
+    border: none;
+    width: 200px;
+    height: 75px;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    text-align: right;
+    font-family: rowdies;
+}
+
+#simboloMusica{
+    width: 75px;
+}
+
+#simboloAdd{
+    position: absolute;
+    width: 75px;
+    top: 10px;
+    left: 0;
+}
+
+.areaDasMusicas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 300px;
+}
+
+.areaBotaoAddMusicas{
+    position: absolute;
+    background-color: #da0043;
+    width: 300px;
+    height: 180px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    top: 75px;
+}
+
+#botaoAddMusicas{
+    position: absolute;
+    background-color: #da0043;
+    border: none;
+    color: white;
+    font-size: 25px;
+    font-family: rowdies;
+    cursor: pointer;
+    top: 25px;
+    left: 90px;
+}
+
+input[type = "file"]{
+    display: none;
+}
+
+#inputNomeMusica{
+    position: absolute;
+    top: 90px;
+    left: 10px;
+    width: 200px;
+    height: 25px;
+    background-color: #ffffff;
+    color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+
+}
+
+
+#adicionarMusica{
+    position: absolute;
+    top: 90px;
+    left: 215px;
+    background-color: white;
+    border: none;
+    color: black;
+    width: 75px;
+    height: 25px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#removerUltimaMusica{
+    position: absolute;
+    top: 140px;
+    left: 15px;
+    background-color: white;
+    border: none;
+    height: 25px;
+    width: 180px;
+    border-radius: 15px;
+    color: black;
+    cursor: pointer;
+
+}
+
+/* A partir daqui eu estou trabalhando com os audio :V*/
+audio{ /*Audio Controler*/
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    border-radius: 15px;
+}
+
+.tituloDasMusicas{
+    position: absolute; 
+    background-color: #da0041f6;
+
+    width: 270px;
+    height: 175px;
+
+    margin-left: 150px;
+    margin-top: 15px;
+
+    border-radius: 15px;
+
+    text-align: center;
+    font-size: 20px;
+    font-family: rowdies;
+    color: black;
+}
+
+#simboloCaixaMusica{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+
+}
+
+/* Colocando o blocos em suas posiçoes */
+.blocoDeMusica{
+    position: absolute;
+}

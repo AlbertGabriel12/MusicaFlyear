@@ -1,0 +1,60 @@
+/* coloca cor de fundo no site inteiro*/
+body{
+    background-color: #6f00a9;
+}
+
+/* Essa é a faixa que fica bem em cima do site onde tem a logo e o botao*/
+.faixa{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+/* Esse é o bota que fica la em cima*/
+.botaoComecar{
+    position: absolute;
+    right: 10px;
+    top: 25px;
+}
+
+/* Posicionando os elementos como descriçao na meio da tela*/
+.descricao{
+    margin-top: 250px;
+    margin-left: 340px;
+}
+
+/* Colocando o texto da descriçao em UPPERCASE e colocando a cor dele em branco
+e colocando uma fonte daora 
+- importando uma fonte daora :3*/
+@font-face{
+    font-family: row;
+    src: url(fontes/rowdies-regular-webfont.woff);
+}
+h2{
+    font-style: italic;
+    font-family: rowdies;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* pegando o pedaço da descriçao e afastando e deixando mais no meio*/
+#semAnuncio{
+    padding-left: 25px;
+}
+
+/* Posicionando o botao da descriçao no meio da tela*/
+.botaoComecar2{
+    margin-left: 288px;
+}
+
+input{
+    border: none;
+    height: 35px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: #da0043;
+    color: white;
+    cursor: pointer;
+}

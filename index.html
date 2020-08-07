@@ -1,0 +1,44 @@
+<DOCTYPE html>
+<html lang = "pt-br">
+    <head>
+        <meta charset = "utf-8">
+        <meta name="description" content="O site que guarda as suas musicas favoritas e reproduz sem anuncio atrapalhando a sua vibe :3">
+        <meta name="keywords" content="musica flyear, musica, flyear, site para guarda musica, reproduzir musica sem anuncio">
+        <meta name="author" content="Albert Gabriel">
+
+        <title> Pagina Inicial - Musica Flyear</title>
+
+        <!-- Estilo -->
+        <link rel="stylesheet" href="Css/style.css">
+
+        <!-- Icone-->
+        <link rel="icon" href="Icon/Icon.png"> 
+    </head>
+
+    <body>
+        <div class="faixa">
+            <a href="index.html">
+                <img src="Img/Logo.png" width="250">
+            </a>
+
+            <a href="paginas/home.html">
+                <input onmouseover="aumentarBotaoFaixa()" onmouseout="diminuirBotaoFaixa()" class="botaoComecar" type="button" value="Começar">
+            </a>
+        </div>
+
+        <div class="descricao">
+            <h2>
+                O site que guarda as suas musicas favoritas <br>
+                <span id="semAnuncio">Sem anuncio atrapalhando a sua vibe :3</span>
+            </h2> <br>
+
+            <a href="paginas/home.html">
+                <input onmouseover="aumentarBotaoDescricao()" onmouseout="diminuirBotaoDescricao()" class="botaoComecar2" type="button" value="COMECE JÁ">
+            </a>
+        </div>
+
+        <script src="JavaScript/index.js"></script>
+         
+    </body>
+
+</html>
