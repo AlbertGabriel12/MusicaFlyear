@@ -3,6 +3,11 @@ body{
     overflow-x: hidden;
 }
 
+@font-face{
+    font-family: rowdies;
+    src: url(fontes/rowdies-regular-webfont.woff);
+}
+
 .logo{
     position: fixed;
     left: 0;
