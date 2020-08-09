@@ -3,6 +3,9 @@ let faixaVertical = document.getElementsByClassName('faixaVertical')[0]
 faixaVertical.style.height = screen.height
 //---------------------------------------------
 
+//Variavel que salva as musicas
+let areaMusicaSave
+
 /*Variavel que pega o elemento blocoDeMusica*/
 let blocoDeMusicas = document.getElementsByClassName('blocoDeMusica')
 
@@ -122,6 +125,8 @@ function colocaUrlDoAudio(){
 
     reader.readAsDataURL(inputFileAudio.files[0])
 }
+
+//----------Sistema de save----------
 
 //Variavel que recebe o input que recebe o nome da musica
 let inputNomeMusica = document.getElementById('inputNomeMusica')
