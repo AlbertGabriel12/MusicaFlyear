@@ -4,7 +4,7 @@ body{
 }
 
 @font-face{
-    font-family: rowdies;
+    font-family: row;
     src: url(fontes/rowdies-regular-webfont.woff);
 }
 
@@ -41,7 +41,7 @@ body{
     color: white;
     font-size: 25px;
     text-align: right;
-    font-family: rowdies;
+    font-family: row;
 }
 
 #simboloMusica{
@@ -79,7 +79,7 @@ body{
     border: none;
     color: white;
     font-size: 25px;
-    font-family: rowdies;
+    font-family: row;
     cursor: pointer;
     top: 25px;
     left: 90px;
@@ -154,7 +154,7 @@ audio{ /*Audio Controler*/
 
     text-align: center;
     font-size: 20px;
-    font-family: rowdies;
+    font-family: row;
     color: black;
 }
 
