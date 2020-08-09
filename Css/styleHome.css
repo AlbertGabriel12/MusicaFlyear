@@ -117,7 +117,7 @@ input[type = "file"]{
     border-radius: 15px;
     cursor: pointer;
 }
-
+/*
 #salvarMusicas{
     position: absolute;
     top: 190px;
@@ -145,7 +145,7 @@ input[type = "file"]{
 
 }
 
-
+*/
 /* A partir daqui eu estou trabalhando com os audio :V*/
 audio{ /*Audio Controler*/
     position: absolute;
